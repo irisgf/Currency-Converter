@@ -1,7 +1,7 @@
 import requests
 
 def obtener_tipo_cambio(base, simbolo):
-    url = f"https://v6.exchangerate-api.com/v6/cd91ebeb1564fb5de5dd4103/latest/{base}"
+    url = f"https://v6.exchangerate-api.com/v6/TU_API_KEY/latest/{base}"
     try:
         respuesta = requests.get(url)
         datos = respuesta.json()
